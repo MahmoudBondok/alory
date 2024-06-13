@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+  <!-- Mirrored from quickdevs.com/templates/agroly/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 24 Jul 2022 09:50:22 GMT -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- fontawesome and favicon -->
+        <link rel="icon" href="images/logos/logo2.png" type="image/icon"/>
+
+    <!-- TITLE -->
+    <title>Realword Farming Application</title>
+
+    <!-- FONT AWESOME ICONS LIBRARY -->
+    <link rel="stylesheet" href="fonts/css/all.min.css" />
+
+       <!-- imported library -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--  FAVICON  -->
+    <link rel="shortcut icon" href="images/icons/favicon.png" />
+
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="5405e91c-58ba-4151-9d9b-c2a547021f5f";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+
+    <!-- CSS LIBRARY STYLES -->
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/lib/slick.min.css" />
+    <link rel="stylesheet" href="css/lib/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/lib/flickity.min.css" />
+    <link rel="stylesheet" href="css/lib/magnific-popup.min.css" />
+    <link rel="stylesheet" href="css/lib/aos.min.css" />
+    <link rel="stylesheet" href="css/lib/navbar.css" />
+
+    <!-- CSS TEMPLATE STYLES -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/lib/sss.css" />
+    <link rel="stylesheet" href="css/asf.css" />
+
+
+    <!-- MODERNIZR LIBRARY -->
+    <script src="js/modernizr-custom.js"></script>
+  </head>
+
+  <body>
+    <!-- PRELOADER START -->
+    <div id="loader-wrapper">
+      <div class="loader">
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+      </div>
+    </div>
+    <!-- PRELOADER END -->
+
+    <header>
+      <!-- NAV START -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container p-0">
+          <a href="index.html" class="navbar-brand"
+            ><img src="images/logos/logo2.png" alt=""
+          /></a>
+
+          <button
+            type="button"
+            class="navbar-toggler collapsed"
+            data-toggle="collapse"
+            data-target="#main-nav"
+          >
+            <span class="menu-icon-bar"></span>
+            <span class="menu-icon-bar"></span>
+            <span class="menu-icon-bar"></span>
+          </button>
+
+          <div id="main-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li>
+                <a href="index.html" class="nav-item nav-link last-link-item"
+                  >HOME</a
+                >
+              </li>
+              <!-- <li>
+                <a href="#about" class="nav-item nav-link last-link-item">OUR STORY</a>
+              </li> -->
+              <li id="#tokenomics-section">
+                <a href="#tokenomics-section" class="nav-item nav-link last-link-item">Tokenomics</a>
+              </li>
+              <li id="">
+                <a target="_blank" href="https://farmgrid.medium.com/road-map-898213cecd14" class="nav-item nav-link last-link-item">Roadmap</a>
+              </li>
+              <li id="">
+                <a target="_blank" href="https://drive.google.com/file/d/1OEcmBuag6pKIyJU-nj-Iybs1BWvSY9Yq/view " class="nav-item nav-link last-link-item">LitePaper</a>
+              </li>
+              <li>
+                <a                     href="https://farmgrid.medium.com/our-team-6978d4646c8"
+                target="_blank" class="nav-item nav-link last-link-item"
+                  >Team</a>
+              </li>
+              <li>
+                <a                     href="https://farmgrid.medium.com/"
+                target="_blank" class="nav-item nav-link last-link-item"
+                  >Blog</a>
+              </li>
+              <li>
+                <a href="https://farmgrid.org/" class="nav-item nav-link last-link-item"
+                  >FarmGrid</a
+                >
+              </li>
+              <li>
+                <a href="https://farmgrid.medium.com/gaming-in-farm-grid-a271fde1a1dd" class="nav-item nav-link last-link-item"
+                  >
+                  Farmverse</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- NAV END -->
+
+      <!--SLIDER START-->
+      <div class="home-slider">
+        <!-- partial:index.partial.html -->
+        <div class="hero-slider" data-carousel>
+          <div
+            class="carousel-cell"
+            style="background-image: url(images/common/slider-bg-1.jpg)">
+            <div class="overlay"></div>
+            <div class="container slider-caption">
+              <h5 class="subtitle">Anyone anywhere</h5>
+              <h2 class="title">
+                can now <span class="color-text">participate</span> in farming.
+                <br />
+                <!-- of <span class="color-text">decision</span> -->
+              </h2>
+              <div class="slider-btn">
+                <a href="contact.html" class="btn button btn-outline-white"
+                  >Contact Us</a
+                >
+                <div class="btn-popup">
+                  <a
+                    class="popup-youtube"
+                    href="https://grid.farmgrid.org/videos/hero-video.mp4?version=1"
+                  >
+                    <div class="pulse"><i class="fas fa-play"></i></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="carousel-cell"
+            style="background-image: url(images/common/slider-bg-4.jpg)">
+            <div class="overlay"></div>
+            <div class="container slider-caption">
+              <h5 class="subtitle">Anyone anywhere</h5>
+              <h2 class="title">
+                can now <span class="color-text">participate</span> in farming.
+                <br />
+                <!-- of <span class="color-text">decision</span> -->
+              </h2>
+              <div class="slider-btn">
+                <a href="contact.html" class="btn button btn-outline-white"
+                  >Contact Us</a
+                >
+                <div class="btn-popup">
+                  <a
+                    class="popup-youtube"
+                    href="https://grid.farmgrid.org/videos/hero-video.mp4?version=1"
+                  >
+                    <div class="pulse"><i class="fas fa-play"></i></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="carousel-cell"
+            style="background-image: url(images/common/slider-bg-2.jpg)"
+          >
+            <div class="overlay"></div>
+            <div class="container slider-caption">
+              <h5 class="subtitle">Moving the World</h5>
+              <h2 class="title">
+                DeFi yield optimization for
+                <span class="color-text">African </span> <br />
+                real farm stakeholders.
+              </h2>
+              <div class="slider-btn">
+                <a href="contact.html" class="btn button btn-outline-white"
+                  ></a
+                >
+                <div class="btn-popup">
+                  <a
+                    class="popup-youtube"
+                    href="https://grid.farmgrid.org/videos/hero-video.mp4?version=1"
+                  >
+                    <div class="pulse"><i class="fas fa-play"></i></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="carousel-cell"
+            style="background-image: url(images/common/slider-bg-3.jpg)"
+          >
+            <div class="overlay"></div>
+            <div class="container slider-caption">
+              <h5 class="subtitle">We know agriculture</h5>
+              <h2 class="title">
+                <span class="color-text">The </span> leader <br />
+                in the <span class="color-text">field</span>
+              </h2>
+              <div class="slider-btn">
+                <a href="contact.html" class="btn button btn-outline-white"
+                  >Contact Us</a
+                >
+                <div class="btn-popup">
+                  <a
+                    class="popup-youtube"
+                    href="https://grid.farmgrid.org/videos/hero-video.mp4?version=1"
+                  >
+                    <div class="pulse"><i class="fas fa-play"></i></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- partial -->
+      </div>
+      <!--SLIDER END-->
+    </header>
+
+    <!-- CONTENT START -->
+    <section>
+      <!-- ABOUT US START -->
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-lg-5">
+            <figure class="agroly-about-img">
+              <img src="images/common/agroly-about.jpg" alt="" />
+            </figure>
+          </div>
+          <div id="about" class="col-lg-7 col-mt-lg">
+            <div class="about-agroly-info">
+              <h5>About FarmGrid</h5>
+              <h2>Our Story <br /><span class="light-text"></span></h2>
+              <p>
+                FarmGrid is improving agriculture in Africa and promoting One
+                Health using blockchain technology. We have accomplished
+                numerous projects since our establishment, such as vaccinating
+                farm animals, educating farmers and agro extension workers on
+                antibiotic use and misuse.
+              </p>
+              <p>
+                The misuse of antibiotics and other drugs in livestock breeding
+                has become a global concern, leading to the development of
+                antibiotic resistance in humans. Antibiotic resistance poses a
+                threat to human life, especially as farmers use antibiotics as a
+                mainstay to grow their livestock, which exposes unsuspecting
+                consumers to antibiotic resistance complications.
+              </p>
+              <p>
+                The FarGrid initiative was created to address this issue by
+                educating farmers on the dangers of antibiotic misuse and
+                alternative methods to ensure the survival of livestock without
+                the need for antibiotics. The initiative has recorded successful
+                seminars, training, and partnerships with rural farmers to test
+                its formulae.
+              </p>
+              <figure class="signature">
+                <img src="images/common/signature.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ABOUT US END -->
+
+       <!-- mission and objectives starts -->
+    <section class="mission-section_and_objectives ourr flex-2 container">
+      <div class="place-left">
+      <h3>Our Mission</h3>
+      <ul class="mission-list" style="padding: 18px;">
+       <li>
+        To improve agriculture by sponsoring local African farmers.
+        </li>
+        <li>
+          To educate these farmers on safe and healthy practices that promote One Health.
+        </li>
+        <li>
+          To connect FarmGrid farmers with potential buyers interested in their safe products.
+        </li>
+        <li>
+          To build a platform that allows individuals worldwide to engage in farming alongside local farmers in Africa.
+        </li>
+      </ul>
+    </div>
+
+    <div class="place-right">
+      <h3>Aims And Objectives</h3>
+      <ul class="objectives-list" style="padding: 18px;">
+        <li>
+          Building a platform that connects people from all over the world to actual farming and Blockchain staking.
+        </li>
+        <li>
+          Encouraging youths to engage in agriculture and reduce unemployment among them.
+        </li>
+        <li>
+          Creating partnerships with mega agricultural organizations in Africa and agro financial institutions.
+        </li>
+        <li>
+          Encouraging farmers to adhere to the proper use of chemicals and drugs in farming.
+        </li>
+        <li>
+          Building a system to monitor and track products from the farmers for potential buyers and consumers.
+        </li>
+        <li>
+          Providing farmers with water as charity in arid areas of Africa.
+        </li>
+      </ul>
+    </div>
+    </section>
+
+      <!-- SERVICES START -->
+      <div class="carousel-parallax2 mt-5 mb-5" >
+        <div class="container">
+          <div class="carousel-parallax-content">
+            <div class="cp-title" id="product">
+              <h5>FarmGrid</h5>
+              <h2>Engagements <span class="light-text"></span></h2>
+              <p>
+                FarmGrid is a global community of practice that facilitates
+                dialogue, information exchange and <br />
+                use of information and communication technologies.
+              </p>
+            </div>
+
+            <div class="custom-carousel2">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="thumbnail-box">
+                    <figure class="thumbnail-box-img">
+                      <img
+                        style="height: 16rem"
+                        src="images/common/ag-pic-19.jpeg"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="thumbnail-box-caption">
+                      <h3>Activities</h3>
+                      <p>
+                        Veterinary and agricultural extension services for rural
+                        farmers...
+                      </p>
+                      <h5><a href="#">Learn more</a></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="thumbnail-box">
+                    <figure class="thumbnail-box-img">
+                      <img
+                        style="height: 16rem"
+                        src="images/common/ag-vegetables.jpg"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="thumbnail-box-caption">
+                      <h3>Milestone</h3>
+                      <p>
+                        We have successfully completed farm sponsorship
+                        campaigns for 3 consecutive...
+                      </p>
+                      <h5><a href="#">Learn more</a></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="thumbnail-box">
+                    <figure class="thumbnail-box-img">
+                      <img
+                        style="height: 16rem"
+                        src="images/common/ag-fruits.jpg"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="thumbnail-box-caption">
+                      <h3>Challenges</h3>
+                      <p>
+                        Illiteracy: Most farmers in rural areas were hard to
+                        connect with due to the lack of...
+                      </p>
+                      <h5><a href="#">Learn more</a></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="thumbnail-box">
+                    <figure class="thumbnail-box-img">
+                      <img
+                        style="height: 16rem"
+                        src="images/common/ag-cattle.jpg"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="thumbnail-box-caption">
+                      <h3>Healty Cattle</h3>
+                      <p>
+                        There are many variations of passages of Lorem Ipsum
+                        available, but the majority.
+                      </p>
+                      <h5><a href="#">Learn more</a></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="thumbnail-box">
+                    <figure class="thumbnail-box-img">
+                      <img
+                        style="height: 16rem"
+                        src="images/common/ag-truck.jpg"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="thumbnail-box-caption">
+                      <h3>Charity</h3>
+                      <p>
+                        Free extension services for rural farmers. Provision of
+                        water for drinking...
+                      </p>
+                      <h5><a href="#">Learn more</a></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-theme">
+                <div class="owl-controls">
+                  <div class="custom-nav owl-nav"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SERVICES END -->
+      <!--  -->
+      <section class="we-head-to container">
+        <div class="flex-container flex-2">
+          <div class="place-left">
+            <h3 class="sub-heading">where are we headed &quest;</h3>
+            <p>
+              The future of global food production is tied to the success of
+              agriculture in Africa. To maximize the resources available to
+              farmers, we are integrating blockchain technology into the sector
+            </p>
+            <p>
+              By holding the FarmGrid token, anyone can participate in farming and
+              help optimize yields.
+            </p>
+            <p>
+              Lack of funding is a major challenge for African farmers, and this
+              initiative aims to address that. We encourage everyone to get
+              involved and become a farmer by simply using a smartphone or laptop.
+            </p>
+            <p>
+              This is an excellent opportunity for youths who are already involved
+              in blockchain businesses.
+            </p>
+          </div>
+          <div>
+            <div class="wrapper metamask-section">
+              <h3 class="sub-heading">token information</h3>
+              <div class="metamask-header"></div>
+              <div class="metamask-body">
+                <p>Name : <span> FarmGrid </span></p>
+                <p>Symbol : <span> GRID </span></p>
+                <p>Decimals : <span> 18 </span></p>
+                <p class="address">
+                  Address :
+                  <span> 0xB31bE1a2C4A83dD2ACb4cb85C6f3E012341FA427 </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="metamask-footer container">
+          <a
+            target="_blank"
+            href="https://vittominacori.github.io/watch-token/page/?hash=0x7b2261646472657373223a22307842333162453161324334413833644432414362346362383543366633453031323334314641343237222c226c6f676f223a2268747470733a2f2f677269642e6661726d677269642e6f72672f66617669636f6e2d33327833322e706e67227d&network=bsc_mainnet"
+            target="_self"
+            id="add-metamask"
+            class="cta-btn success-btn"
+            ><svg
+              viewBox="0 0 16 16"
+              width="1em"
+              height="1em"
+              focusable="false"
+              role="img"
+              aria-label="plus circle fill"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="bi-plus-circle-fill b-icon bi"
+            >
+              <g>
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                ></path>
+              </g>
+            </svg>
+            Add to MetaMask
+          </a>
+          <a
+            href="https://bscscan.com/token/0xB31bE1a2C4A83dD2ACb4cb85C6f3E012341FA427"
+            rel="noopener"
+            target="_blank"
+            class="cta-btn primary-btn"
+            ><svg
+              viewBox="0 0 16 16"
+              width="1em"
+              height="1em"
+              focusable="false"
+              role="img"
+              aria-label="arrow up right circle fill"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="bi-arrow-up-right-circle-fill b-icon bi"
+            >
+              <g>
+                <path
+                  d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+                ></path>
+              </g>
+            </svg>
+            View on BscScan
+          </a>
+          <a
+            href="https://coinmarketcap.com/dexscan/bsc/0x2a68942b1970297ea5cc837928b9d05af7d175d8/"
+            class="cta-btn"
+            target="_blank"
+          >
+            CoinMarket Cap
+          </a>
+          <a
+            href="https://www.dextools.io/app/en/bnb/pair-explorer/0x2a68942b1970297ea5cc837928b9d05af7d175d8"
+            class="cta-btn"
+            target="_blank"
+          >
+            DexTool
+          </a>
+          <a
+            href="https://www.geckoterminal.com/bsc/pools/0x2a68942b1970297ea5cc837928b9d05af7d175d8"
+            class="cta-btn"
+            target="_blank"
+          >
+            Gecko Terminal
+          </a>
+          <!-- <a href="#" target="_self" class="cta-btn info-btn"><svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" role="img" aria-label="share" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-share b-icon bi"><g><path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"></path></g></svg></a> -->
+        </div>
+      </section>
+  
+      <p id="token-info">&nbsp;</p>
+      <section class="token-info flex-2 container">
+        <div class="security-section" data-aos="fade-down">
+          <div class="lock-section">
+            <h3 class="sub-heading">Our Token is Secured</h3>
+            <span class="lock-emoji">🔒</span>
+          </div>
+          <div class="confirm-security">
+            <a
+              href="https://gopluslabs.io/token-security/56/0xB31bE1a2C4A83dD2ACb4cb85C6f3E012341FA427"
+              target="_blank"
+              class="cta-btn"
+              >Audit from Go+</a
+            >
+            <a
+              href="https://tokensecurity.tokenpocket.pro/#/?address=0xB31bE1a2C4A83dD2ACb4cb85C6f3E012341FA427&ns=ethereum&chain_id=56&blockchain_id=12"
+              target="_blank"
+              class="cta-btn"
+              >Audit from TokenSecurity
+            </a>
+          </div>
+        </div>
+  
+        <div class="token-usecase" data-aos="fade-down">
+          <h3 class="sub-heading">Token use case</h3>
+          <ul>
+            <li>Incentivise farmers who adopt Commercial Organic Farming.</li>
+            <li>
+              Incentivise experts who teach farmers about the misuse of
+              antibiotics.
+            </li>
+            <li>Facilitate smooth investment in agriculture in Africa.</li>
+            <li>In-app game asset purchase (Agro Intelligence Game).</li>
+          </ul>
+        </div>
+      </section>
+  
+      <section class="tokenomics-section container" id="tokenomics-section">
+        <h3 class="heading">token distribution model</h3>
+        <div class="row flex flex-wrapper">
+          <div class="content">
+            <div class="box-container">
+              <div class="box grap">
+                <img src="images/grapChart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="cta-btn"
+          href="https://farmgrid.medium.com/token-specifications-2d4fc9bd4748"
+          target="_blank"
+          >Token Specification</a
+        >
+      </section>
+      <!--  -->
+
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="product-desc-layer">
+              <h3 class="featurette-heading">
+                Global Farm Crowdfunding<br /><span
+                  class="light-text text-muted"
+                ></span>
+              </h3>
+              <p>
+                (Global Farming Participation In Africa) FarmGrid engage in
+                Blockchain farming and actual farming activities where
+                stakeholders can choose which Plant or animal to sponsor and get
+                returns from the sales of these products after a stipulated period
+                of time . The returns are stated before the sponsorship campaigns
+                are advertised . This is unlike other Blockchain farming
+                activities that end on the Blockchain.
+              </p>
+              <div class="col-lg-6">
+                <div class="footer-btns">
+                  <a
+                    target="_blank"
+                    href="https://farmgrid.medium.com/global-farming-participation-in-africa-63f37fa2316a"
+                    class="btn button"
+                    >More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-mt-lg">
+            <figure class="product-features">
+              <img
+                style="border-radius: 10px"
+                src="images/common/ag-product-1.jpg"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+
+
+        <!-- CONTENT START -->
+    <section id="faq">
+      <div class="container mt-5 mb-5">
+        <div class="layer-title">
+          <h2>FAQ</h2>
+        </div>
+        <ul class="accordion mt-4">
+          <li>
+            <a>1) What is FarmGrid ?</a>
+            <p>
+              FarmGrid is improving agriculture in Africa and promoting One Health using blockchain technology. We have accomplished numerous projects since our establishment, such as vaccinating farm animals, educating farmers and agro extension workers on antibiotic use and misuse. one health. FarmGrid an organization of agricultural, health and Tech experts that promotes One health by assisting farmers: rural, commercial, small and large scale farmers and beginners achieve their goal of healthy and safe food production.
+            </p>
+          </li>
+          <li>
+            <a>2) What we do ?</a>
+            <p>
+              -Farm Crowdfunding.
+              -Vaccination for farm animals.
+              -Farmers and agro Extension workers education on the use and misuse of antibiotics.
+              -Farm sponsorship programs.
+            </p>
+          </li>
+          <li>
+            <a>3) I have a farm, how do I participate in the FarmGrid ?</a>
+            <p>
+              FarmGrid is building a community of farmers that have adopted the best agricultural practice on their farms with products free from antibiotic abuse. We are supporting farmers (small and large scale) worldwide to optimize yield and grow healthy farm products.
+              You can join us by sending a message to hello@farmgrid.org tell us a little about your farm (location, weekly yield, type of farming) and further information would be communicated.
+            </p>
+          </li>
+          <li>
+            <a>4) I don't have a farm, how do I participate in the FarmGrid ?</a>
+            <p>
+              You hold immense value within the FarmGrid community, and we highly appreciate your presence. As a member of our community, you have the power to make a difference in multiple ways. Firstly, you can contribute by spreading the word and inviting others to join the Grid community. Secondly, you have the opportunity to sponsor a farm and achieve a remarkable return on investment of over 25% on the farm proceeds of your choice. Lastly, you can assist us in registering farmers who are not yet affiliated with FarmGrid, thereby expanding our network and impact.
+            </p>
+          </li>
+          <li>
+            <a>5) How can I make money on the FarmGrid ?</a>
+            <p>
+              The Farm sponsorship program, based on CrowdFunding, has been meticulously designed to provide financial growth opportunities for our community members. By sponsoring a farm, you can reap returns in three distinct ways. Firstly, you can earn through the Defi protocol, secondly, you can benefit from the farm proceeds, and lastly, you will receive the $GRID token as an added incentive. Additionally, as a farm sponsor, you will also have the privilege of receiving livestock or crops delivered to you every December.
+            </p>
+          </li>
+          <li>
+            <a>6) Who can invest in the FarmGrid ?</a>
+            <p>
+              Anyone anywhere can be a part of the FarmGrid objective and participate in sponsoring a farm.
+            </p>
+          </li>
+          <li>
+            <a>7) Why should I join the sensitization ?</a>
+            <p>
+              The abuse and misuse of antibiotics in the rearing of farm animals present a significant threat to the health of all living beings. To address this pressing issue, our efforts focus on raising awareness and educating farmers and agro-extension workers about the optimal agricultural practices to implement on their farms. This sensitization initiative aims to promote the production of farm proceeds that are free from antibiotic residues, ensuring their suitability for human consumption and contributing to overall health and well-being.            </p>
+          </li>
+        </ul>
+        <!-- / accordion -->
+      </div>
+    </section>
+    <!-- CONTENT END -->
+
+      <!-- MAP START -->
+          <!-- contact us -->
+    <section class="contact container" id="contact">
+      <h3 class="heading">Contact Us</h3>
+      <div class="row flex-2">
+        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=africa&amp;t=h&amp;z=3&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://capcuttemplate.org/">Capcut Template</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+            <div class="place-right">
+           <a style="text-transform:capitalize;" class="cta-btn" href="https://dorahacks.io/buidl/1435?roundProj=1030" target="_blank">Hackathon Participation</a>
+           <a style="text-transform:capitalize;margin-bottom:2rem;" class="cta-btn" href="https://farmgridafrica.substack.com/p/coming-soon?" target="_blank">Newsletter</a>
+           <br>
+           <br>
+           <hr>
+           <a style="text-transform:capitalize;" class="cta-btn" href=" https://t.me/GridSocialImpactBot" target="_blank">Join Community Airdrop</a>
+           <a style="text-transform:capitalize;" class="cta-btn" href="https://www.pinksale.finance/private-sale/0x8C908229d980085D582978e767dFfE1809c53e83/1?chain=BSC" target="_blank">PINK SALE: 9th june</a> 
+        </div>
+      </div>
+  </section>
+
+<!-- <section id="map">
+  <div class="bottom-map">
+    <iframe class="map-iframe-alt" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7968868.794761806!2d24.784260802578526!3d-12.775315825025775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10a06c0a948cf5d5%3A0x108270c99e90f0b3!2zw4FmcmljYQ!5e0!3m2!1ses-419!2sdo!4v1714655119633!5m2!1ses-419!2sdo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section> -->
+      <!-- MAP END -->
+
+    <!-- FOOTER START -->
+    <footer>
+      <div class="container">
+        <div class="top-footer">
+          <div class="row">
+            <div class="col-lg-6">
+              <h4>FarmGrid<span class="light-text"></span></h4>
+              <p>Bringing growth, ingenuity, and experience to market.</p>
+            </div>
+            <div class="col-lg-6">
+              <div class="footer-btns">
+                <a target="_blank" href="https://farmgrid.medium.com/farm-grid-at-a-glance-2a93b61213be" class="btn button">Farm Grid at a Glance</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="hr-divider" />
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="footer-col">
+              <figure class="footer-logo">
+                <img
+                  class="footer-logos"
+                  style="width: 40% !important"
+                  src="images/logos/logo2.png"
+                  alt=""
+                />
+              </figure>
+              <p style="margin: 20px 0px; color: #17d141">Email: hello@farmgrid.org</p>
+              <h1 style="color: #17d141; font-size: 25px; margin-top: 10px;">Join Our Communities</h1>
+              <p class="footer-desc">
+                Keep up-to-date and find out how you can get involved in all our social media channels. Follow, like and share!
+              </p>
+              <ul class="bottom-social">
+                <li>
+                  <a href="https://www.facebook.com/farmgrid?_rdc=1&_rdr" target="_blank"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/farmgrid/" target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://t.me/farmgridAfrica" target="_blank"
+                    ><i class="fab fa-telegram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/FarmGridAfrica" target="_blank"
+                    ><i class="fab fa-twitter-square"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCIoPcYfOHV1rHtoNhi5zNmA" target="_blank"
+                    ><i class="fab fa-youtube-square"></i
+                  ></a>
+                </li>         
+              <li>
+                <a href="https://zealy.io/c/farmgrid" target="_blank">
+                <img src="https://zealy.io/apple-touch-icon.png" height="16" width="16">
+                <span>Zealy</span>
+              </a>
+            </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-mt-lg">
+            <div class="footer-col">
+              <h5>Quick Links</h5>
+              <ul class="footer-bulletlist">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#tokenomics-section">Tokenomics</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-mt-lg">
+            <div class="footer-col">
+              <h5>About</h5>
+              <ul class="footer-bulletlist">
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="https://drive.google.com/file/d/1OEcmBuag6pKIyJU-nj-Iybs1BWvSY9Yq/view">LitePaper</a></li>
+                <li><a href="https://farmgrid.medium.com/road-map-898213cecd14">Roadmap</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-mt-lg">
+            <div class="footer-col">
+              <h5>Company</h5>
+              <ul class="footer-bulletlist">
+                <li><a href="#about">About Us</a></li>
+                <li><a                    href="https://farmgrid.medium.com/our-team-6978d4646c8"
+                  target="_blank">Our Team</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="hr-divider" />
+        <div class="bottom-footer">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="copyright">
+                <p>© 2024 <strong>FarmGrid</strong> all rights reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!--SCROLL TOP START-->
+    <a href="#0" class="cd-top">Top</a>
+    <!--SCROLL TOP START-->
+
+    <!-- JAVASCRIPTS -->
+    <script src="js/lib/jquery-3.5.1.min.js"></script>
+    <script src="js/lib/plugins.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/flickity.pkgd.min.js"></script>
+    <script src="js/lib/nav-fixed-top.js"></script>
+    <script src="js/lib/aos.min.js"></script>
+    <script src="js/lib/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+    <!-- JAVASCRIPTS END -->
+  </body>
+
+  <!-- Mirrored from quickdevs.com/templates/agroly/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 24 Jul 2022 09:56:22 GMT -->
+</html>
